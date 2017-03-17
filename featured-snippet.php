@@ -4,7 +4,7 @@ Plugin Name: Featured-Snippet-Shortcode
 Description: Use [featured_snippet image="Image URL" image_alt="Alt-Attribute for your image"]Your content for the featured snippet[/featured_snippet] to display a little featured snippet box in your content area.
 Author: TechnicalSEO.de, André Goldmann
 Author URI: https://www.technicalseo.de
-Version: 1.1
+Version: 1.0
 */
 
 if ( !class_exists('WP') ) {
@@ -12,26 +12,6 @@ if ( !class_exists('WP') ) {
 	header('HTTP/1.1 403 Forbidden');
 	exit();
 }
-
-function my_plugin_update_handler( EUAPI_Handler $handler = null, EUAPI_Item_Plugin $item ) {
-
-	if ( 'featured-snippet-plugin/featured-snippet-plugin.php' == $item->file ) {
-
-		$handler = new EUAPI_Handler_GitHub( array(
-			'type'       => $item->type,
-			'file'       => $item->file,
-			'github_url' => 'https://github.com/pixeldreher/featured-snippet-plugin',
-			'http'       => array(
-				'sslverify' => false,
-			),
-		) );
-
-	}
-
-	return $handler;
-
-}
-add_filter( 'euapi_plugin_handler', 'my_plugin_update_handler', 10, 2 );
 
 function featured_snippet_function() {
   	echo '<link rel="stylesheet" href="'.plugins_url('', __FILE__).'/featured-snippet.css" type="text/css" media="screen" />';

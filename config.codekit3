@@ -15,58 +15,10 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/external-update-api\/euapi.php": {
+	"\/featured-snippet-plugin.zip": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/external-update-api\/euapi.php",
-		"oF": 0
-		},
-	"\/external-update-api\/handler-files.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/external-update-api\/handler-files.php",
-		"oF": 0
-		},
-	"\/external-update-api\/handler-github.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/external-update-api\/handler-github.php",
-		"oF": 0
-		},
-	"\/external-update-api\/handler.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/external-update-api\/handler.php",
-		"oF": 0
-		},
-	"\/external-update-api\/info.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/external-update-api\/info.php",
-		"oF": 0
-		},
-	"\/external-update-api\/item-plugin.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/external-update-api\/item-plugin.php",
-		"oF": 0
-		},
-	"\/external-update-api\/item-theme.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/external-update-api\/item-theme.php",
-		"oF": 0
-		},
-	"\/external-update-api\/item.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/external-update-api\/item.php",
-		"oF": 0
-		},
-	"\/external-update-api\/update.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/external-update-api\/update.php",
+		"oAP": "\/featured-snippet-plugin.zip",
 		"oF": 0
 		},
 	"\/featured-snippet.css": {
